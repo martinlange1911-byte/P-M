@@ -1962,10 +1962,10 @@ body:not(.authenticated)::before {
   }
 }
 
-@media (max-width: 1200px), (max-height: 800px) {
+@media (max-width: 720px) {
   #password-gate .password-gate-flower {
     width: clamp(72px, min(10vw, 13vh), 125px);
-    opacity: .12;
+    opacity: .55;
   }
 
   #password-gate .password-gate-flower-bottom {
